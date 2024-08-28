@@ -3,7 +3,7 @@ Course material for UPenn ENM1050
 
 # Current Schedule
 - 28-Aug. Course intro, introduction to Google Colab
-  - Ref material
+  - Ref material: [Slides (pptx)](https://github.com/natrask/ENM1050/blob/main/Slides/01_intro.pptx)
 
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
