@@ -1,9 +1,9 @@
 # ENM1050
-Course material for UPenn ENM1050
+Introduction to scientific computation
 
 # Current Schedule
 - 28-Aug. Course intro, introduction to Google Colab
-  - Ref material: Slides ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/01_intro.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/01_intro.pdf)), [Code](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture01.ipynb)
+  - Ref material: Slides ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/01_intro.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/01_intro.pdf)), [Code](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture01.ipynb). Completed in class exercise (added at end of class)
 - 30-Aug. Plotting, File I/O, Lists. (Dr. Trask on travel)
 
 # Tentative Schedule
