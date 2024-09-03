@@ -5,7 +5,7 @@ Introduction to scientific computation
 - 28-Aug. Course intro, introduction to Google Colab
   - Ref material: Slides ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/01_intro.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/01_intro.pdf)), [Code](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture01.ipynb).
 - 30-Aug. Colab warm-up and canvas group exercise. Dr. Trask on travel, OH begin next week, virtual zoom OH available this week by private message request on Ed.
-  - [HW0 posted](https://canvas.upenn.edu/courses/1814741/assignments/12789641), due midnight 9/6.
+  - [HW0 posted](https://canvas.upenn.edu/courses/1814741/assignments/12789641), due midnight 9/9.
   - Ref material: [Code](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture02.ipynb).
   - Refer back to slides from 28-Aug
 
