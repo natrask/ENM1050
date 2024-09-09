@@ -1,0 +1,62 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{url,ulem}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+ 
+\title{Homework 1: Write a short lab report}
+\author{ENM1050, UPenn}
+\date{Due date: September 16th by midnight (11:59pm)}
+\maketitle
+
+This is an \textbf{individual assignment}. Submit your answers on Canvas using the instructions at the end of the handout. Late submissions will be accepted until midnight of the following Wednesday (11:59pm), but will be penalized by 10\% for each partial or full date late. After the late deadline, no further assignments may be submitted; post a private message on Ed to request an extension if you need one due to a special situation such as illness. This assignment is worth 25 points.
+
+You may talk with other students about this assignment, ask the teaching team questions, use a calculator and other tools, and consult outside sources such as the Internet. When you get stuck, post a question on Ed or go to office hours!\\
+
+\noindent \textbf{Instructions:}\\
+
+\noindent Until now, you have been modifying Python Colab notebooks that have been provided to you. In this homework, we will make sure that you have the ability to start a new notebook for your own work by plotting data from one of your own projects and using Colab to write a short lab report.
+
+\begin{enumerate} %the first video is required (but you don't have to watch it first), you can choose the other 4 from the list on the Course Materials page
+\item \textbf{Load data into your Google Drive.} Find some data that you are interested in visualizing. This could be from a lab report you are trying to write now, a lab from a previous semester, a personal project, data from an online database, etc. Copy the data into one or more Google Spreadsheets.
+\item \textbf{Create a new Colab Notebook.} In your Google Drive folder, click on \\ \verb# New > More > Google Colaboratory.# This will open a blank Colab notebook in your current folder.
+\item \textbf{Insert headers.} Create a new text block in the notebook. Add a title by using \verb@ # [texthere]@, where \verb#texthere# is the title you'd like to label the block. As always, you can look at the example jupyter notebooks from class for examples of this and other formatting tricks.
+\item \textbf{Add an introduction.} Add a new text block with a paragraph description of the data. If you collected the data yourself, explain what the data is and how you collected it. If you copied the data from a source, reference the source and explain who collected the data and how. Include a description of what each of the rows of the data are, with units.
+\item \textbf{Plot the data.} Write code to load in the data and plot it to the screen. Choose whichever plot type (line plot, histogram, bar chart, etc.) makes the most sense for the data. Don't forget to include plot labels and code comments.
+\item \textbf{Add analysis.} Add a new text block describing the relevance of the plot. Why did you choose the type of plot that you did? What kind of observations can you make from the plot?
+\item \textbf{Explore plot parameters.} Demonstrate that you have learned about plot parameters by changing the color or style of at least one plot entity from the default setting. For a refresher, reference the available parameters at \url{https://matplotlib.org/1.5.3/api/pyplot_api.html}.
+\item \textbf{Add collaborators.} At the end of the notebook, add a text block to acknowledge your collaborators. List any people you worked with or references that you consulted. \textbf{Remember:} in this course we welcome collaboration with humans, internet resources, AI, \uline{only} if you acknowledge them properly.
+\item \textbf{Submit.} Submit your work both as an ipynb and pdf to Canvas.
+\end{enumerate}
+
+
+ 
+\end{document}
