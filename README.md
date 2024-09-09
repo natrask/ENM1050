@@ -9,7 +9,7 @@ Introduction to scientific computation
   - Ref material: [Code](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture02.ipynb).
   - Refer back to slides from 28-Aug
 - 9-Sept. Intro to our first simulator, lists, reading data and plots.
-  - [HW1 posted]([https://canvas.upenn.edu/courses/1814741/assignments/12789641](https://github.com/natrask/ENM1050/blob/main/Assignments/ENM1050__Homework_1.pdf)), due midnight 9/16.
+  - [HW1 posted](https://github.com/natrask/ENM1050/blob/main/Assignments/ENM1050__Homework_1.pdf), due midnight 9/16.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/02_listplots.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/02_listplots.pdf))
   - In-class exercise: [jupyter notebook](Code examples/Lecture03.ipynb).
 
