@@ -12,7 +12,7 @@ Introduction to scientific computation
   - [HW1 posted](https://github.com/natrask/ENM1050/blob/main/Assignments/ENM1050__Homework_1.pdf), due midnight 9/16.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/02_listsplots.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/02_listsplots.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture03.ipynb).
-
+  - <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSccDQMUzd1K-nB4PPDfFayBnAC_nBycYk7d4MnfSrW8F8k9-g/viewform?embedded=true" width="640" height="1374" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
 
