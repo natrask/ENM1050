@@ -63,11 +63,17 @@ By the end of this course, you should be able to:
 The course does not assume any prior programming experience but will make use of basic concepts from calculus and engineering. Relevant mathematical and engineering principles will be communicated in detail as needed. If you have doubts about your preparedness for the course, please visit the professor’s OH.
 
 # Teaching Staff
-Instructor: Dr. Nat Trask <ntrask@seas.upenn.edu>
-Associate Professor, MEAM
-Office hours: T 11:00am-12:00pm, R 11:00am-12:00pm
-Graduate teaching assistant: Muhammad Abdullah <muhabd@seas.upenn.edu>
-Teaching Assistants: Michelle Lin Alfredo Vazquez
+- Instructor: Dr. Nat Trask <ntrask@seas.upenn.edu>
+  - Associate Professor, MEAM
+    Office hours: T 11:00am-12:00pm, R 11:00am-12:00pm
+- Graduate teaching assistant: Muhammad Abdullah <muhabd@seas.upenn.edu>
+- Teaching Assistants: Michelle Lin <mylin@seas.upenn.edu>, Alfredo Vazquez <valfredo@seas.upenn.edu>
+  - TA Office hours:
+    PICS conference room 517
+    Option 1: Wed 12-130
+    Option 2: Fri 11-1
+- *Reminder:* All correspondence should be through the ed forum. Emails are provided here for special circumstances (e.g. you can't access the OH building) and will otherwise be ignored.
+
 
 # Office Hours
 The professor and TAs will hold office hours every week. We will announce these hours during the first week of class and also post them on our Google calendar and Ed Discussion. Please check the calendar for any updates throughout the semester.
