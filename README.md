@@ -13,7 +13,7 @@ Introduction to scientific computation
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/02_listsplots.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/02_listsplots.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture03.ipynb), [Example parsing from google form](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture03_datafromgoogleform.ipynb), [Challenge example](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture03_challenge_ex.ipynb)
   - [Course feedback](https://docs.google.com/forms/d/e/1FAIpQLSccDQMUzd1K-nB4PPDfFayBnAC_nBycYk7d4MnfSrW8F8k9-g/viewform?embedded=true)
- - 11-Sept. A widget for data collection, conditionals, writing clean code.
+- 11-Sept. A widget for data collection, conditionals, writing clean code.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/03_conditionals.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/03_conditionals.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture04.ipynb), [Data widget](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture04_datawidget.ipynb)
 # Tentative Schedule
