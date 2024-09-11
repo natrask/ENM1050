@@ -16,7 +16,7 @@ Introduction to scientific computation
 - 11-Sept. A widget for data collection, conditionals, writing clean code.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/03_conditionals.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/03_conditionals.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture04.ipynb), [Data widget](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture04_datawidget.ipynb)
-  - (Survey)[https://forms.gle/vyezcj7ArEYifkU8A]
+  - [Survey](https://forms.gle/vyezcj7ArEYifkU8A)
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
 
