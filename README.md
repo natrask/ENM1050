@@ -17,6 +17,10 @@ Introduction to scientific computation
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/03_conditionals.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/03_conditionals.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture04.ipynb), [Data widget](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture04_datawidget.ipynb)
   - [Survey](https://forms.gle/vyezcj7ArEYifkU8A)
+- 16-Sept. For loops, while loops, and list comprehension.
+  - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/04_loops.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/04_loops.pdf))
+  - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture05.ipynb)
+
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
 
