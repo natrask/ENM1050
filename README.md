@@ -24,6 +24,7 @@ Introduction to scientific computation.
 - 16-Sept. Intro to functions, nonlinear solvers, first look at SciPy
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/05_nonlinearsolves.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/05_nonlinearsolves.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture06.ipynb)
+  - [Survey](https://forms.gle/bqEKw3N2pT8LctJ1A)
 
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
