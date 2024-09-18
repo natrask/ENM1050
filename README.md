@@ -20,6 +20,9 @@ Introduction to scientific computation
 - 16-Sept. For loops, while loops, and list comprehension.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/04_loops.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/04_loops.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture05.ipynb)
+- 16-Sept. Intro to functions, nonlinear solvers, first look at SciPy
+  - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/05_nonlinearsolves.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/05_nonlinearsolves.pdf))
+  - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture06.ipynb)
 
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
