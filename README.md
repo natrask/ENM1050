@@ -1,5 +1,5 @@
 # ENM1050
-Introduction to scientific computation
+Introduction to scientific computation.
 
 # Current Schedule
 - 28-Aug. Course intro, introduction to Google Colab
@@ -18,6 +18,7 @@ Introduction to scientific computation
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture04.ipynb), [Data widget](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture04_datawidget.ipynb)
   - [Survey](https://forms.gle/vyezcj7ArEYifkU8A)
 - 16-Sept. For loops, while loops, and list comprehension.
+  - [HW2 posted](https://github.com/natrask/ENM1050/blob/main/Assignments/ENM1050__Homework_2.pdf), due midnight 9/23. Submit through [canvas](https://canvas.upenn.edu/courses/1814741/assignments/12817409)).
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/04_loops.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/04_loops.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture05.ipynb)
 - 16-Sept. Intro to functions, nonlinear solvers, first look at SciPy
@@ -73,7 +74,7 @@ By the end of this course, you should be able to:
 # Prerequisites
 The course does not assume any prior programming experience but will make use of basic concepts from calculus and engineering. Relevant mathematical and engineering principles will be communicated in detail as needed. If you have doubts about your preparedness for the course, please visit the professor’s OH.
 
-# Teaching Staff
+# Teaching Staff and Office Hours
 - Instructor: Dr. Nat Trask <ntrask@seas.upenn.edu>
   - Associate Professor, MEAM
     Office hours: T 11:00am-12:00pm, R 11:00am-12:00pm
@@ -85,10 +86,6 @@ The course does not assume any prior programming experience but will make use of
     Option 2: Fri 11-1
 - *Reminder:* All correspondence should be through the ed forum. Emails are provided here for special circumstances (e.g. you can't access the OH building) and will otherwise be ignored.
 
-
-# Office Hours
-The professor and TAs will hold office hours every week. We will announce these hours during the first week of class and also post them on our Google calendar and Ed Discussion. Please check the calendar for any updates throughout the semester.
-
 # Course Website
 We will use Canvas (http://canvas.upenn.edu) for assignments and posting any additional resources for the class. We will use Ed Discussion for questions and announcements about the course. Ed is accessible through a link on the left panel of our Canvas page. If you have any questions about the class, please create a post! Use email only for sensitive topics. We will do our best to respond to your questions in a timely manner. If you see others’ questions that you can answer or answers that you can improve, do it! Students who have contributed thoughtful comments, questions, and answers throughout the semester will earn extra credit in the class. That said, while hints and suggestions are great contributions, Ed Discussion should not be used for sharing or distributing solutions to any assignments in the class. Our goal is for everyone to understand the material.
 
@@ -98,8 +95,11 @@ For more information on using Ed Discussion, check https://infocanvas.upenn.edu/
 Class is scheduled for Mondays and Wednesdays 1:45pm – 3:15pm at Meyerson Hall B3. Class times are intended to be interactive and will include a mix of short lectures and programming exercises. Please bring
 a computer. If you have a question, please speak up so we can clear up any confusions right away. If you think I have made a mistake in an explanation, please ask about it and help to fix the error or explain the confusion. Participating constructively in these ways will help make the class as good as it can be.
 
-# Textbook
-There is no required textbook for this course. A list of references will be provided for those seeking additional resources. A potential reference text would be "Scientific Computing with Python" by Führer, Solem and Verdier.
+# Textbook and Acknowledgements
+There is no required textbook for this course. A list of references will be provided for those seeking additional resources. A potential reference text would be Führer, Solem and Verdier. 
+- Much of the early lecture material is taken from Dr. Cynthia Sung's previous offering of the same course.
+- "Scientific Computing With Python" Führer, Solem and Verdier.
+- "Probability Essentials" Jacod & Protter
 
 # Python
 Python will be the computing language used throughout the course. We will be using Google Colab for the majority of the course. This platform is free and accessible through your SEAS Google account.
