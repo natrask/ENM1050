@@ -1,0 +1,120 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{url,ulem}
+\usepackage{lipsum}
+\usepackage{graphicx,wrapfig}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+ 
+\title{Homework 3: We become rocket scientists}
+\author{ENM1050, UPenn}
+\date{Due date: September 30th by midnight (11:59pm)}
+\maketitle
+
+This is an \textbf{individual assignment}. Submit your answers on Canvas using the instructions at the end of the handout. Late submissions will be accepted until midnight of the following Wednesday (11:59pm), but will be penalized by 10\% for each partial or full date late. After the late deadline, no further assignments may be submitted; post a private message on Ed to request an extension if you need one due to a special situation such as illness. 
+
+\begin{wrapfigure}{l}{0.45\textwidth}
+    \includegraphics[width=0.45\textwidth]{figs/hw3fig0.jpg}
+    \caption{Dall-E thinks this looks like a "stick figure with a jetpack being launched by a catapult under projectile motion".}
+\end{wrapfigure}
+You may talk with other students about this assignment, ask the teaching team questions, use a calculator and other tools, and consult outside sources such as the Internet. When you get stuck, post a question on Ed or go to office hours!\\
+
+\noindent \textbf{Ballistics and rocket packs.}\\
+
+%\setlength\intextsep{0pt}
+
+
+For a projectile undergoing projectile motion, an object of mass $m$ and initial position $<x_0,y_0>$ is launched into the air with initial velocity $\mathbf{v}=<u,v>$, and its trajectory evolves only under interaction with gravity. For this setting, the equations of motion are given by
+\begin{align}\label{projectile}
+    \dot{x} &= u\\
+    \dot{y} &= v\\
+    m\dot{u} &= 0\\
+    m\dot{v} &= -mg,
+\end{align}
+where $g = 9.8 m/s^2$. For this case, we can check that this \textit{initial value problem} is satisfied by the following trajectory.
+\begin{align}\label{projectilesolution}
+    x(t) = x_0 + u_0 t\\
+    y(t) = y_0 + v_0 t - \frac12 g t^2
+\end{align}
+\newpage
+
+
+To make things a little more complicated, we will assume our projectile is a little astronaut with a jetpack containing initial fuel of mass $m_f$. We can activate our jetpack at a time $t_{jp}$ - if we do this we will burn fuel at a rate $\alpha$ in exchange for generating thrust $\mathbf{F}_{jp} = <F \cos \theta,F \sin \theta>$, where $F$ is a given magnitude and $\theta \in [0,2\pi]$ is a direction we are free to pick to point the jetpack. In this case, our initial value problem becomes more complicated. For $t > t_{jp}$, the governing equations change to
+
+\begin{align}\label{projectile}
+    \dot{x} &= u\\
+    \dot{y} &= v\\
+    \dot{m_f} &= -\alpha\\
+    \dot{u} &= 0 + \frac{F \cos \theta}{m+m_f}\\
+    \dot{v} &= -g + \frac{F \sin \theta}{m+m_f},
+\end{align}
+for as long as $m_f>0$, before reverting back to the initial equations. When the person hits the ground ($y\leq0$, for $t>0$) the trajectory finishes. The equations of projectile motion don't apply here unfortunately, so we will need to solve them numerically. To keep things simple in this assignment, we will arbitrarily set  $\alpha = 1$ and $F = 2$, which is completely unphysical. When choosing initial conditions, we will set $x(t=0)=y(t=0)=0$, $u(t=0) = v(t=0) = \sqrt{2}$ and $m_f(t=0) = 1$.
+\vspace{5pt}
+
+
+\noindent \textbf{Your assignment.}
+
+Your task this week is to build up a simulator for a projectile which solves the governing equations and use it to launch our little friend as far as possible, picking $\theta$ and $t_{jp}$ to maximize his distance traveled before hitting the ground. Mathematically, we would write that as
+\begin{equation}
+    \underset{t_{jp}>0,\theta \in [0,2\pi]} \max x \left(t;t_{jp},\theta\right)
+\end{equation}
+Here, we use a semicolon to distinguish between the dependent variables in the solution (in this case the time $t$) and the parameters to be optimized over. Underneath the $\min$ we specify the range of values that we allow the parameters to take.
+
+\vspace{5pt}
+
+\noindent \textbf{Action items.}
+\begin{enumerate}
+    \item Start a new Colab notebook. Add a title and your name to the top of the notebook, and acknowledge resources used. Refer to class notebooks for examples about how to format your notebook so that it effectively communicates your work.
+    \item Use calculus to confirm that Equations \ref{projectilesolution} are a solution of the initial value problem (Equations \ref{projectile}).
+    \begin{itemize}
+        \item The derivatives balance the terms on the right hand side of Equations \ref{projectile}.
+        \item The solution at $t=0$ matches the initial conditions of our system.
+    \end{itemize}
+    You can include this in your submitted notebook by taking a picture of your derivation with your phone and copy/pasting into a text block in the notebook.
+
+    \item Implement the explicit Euler method to solve the equations of projectile motion for the given initial conditions. \textbf(i.e. no rocket packs yet). Use a function to encapsulate the right hand side of the differential equation, so that it takes the solution and time at a given timestep, along with any parameters, and returns the derivatives of the solution at that time.
+
+    \item Use the analytic solution to verify that your code is correct, and that for sufficiently small numbers of timesteps you can reproduce the true solution. You can do this by generating a plot showing the true x,y trajectory's evolution over time as a dashed lined, and then super imposing numerical solutions for 8,16,32,... timesteps until they match.
+
+    \item Now that you have confirmed you have a working solver, add conditional statements and other modifications as needed to introduce the jetpack equations. 
+
+    \item Use corner cases and limiting behavior to build your trust in the code that you've written. For example, run with $\alpha,F,m_f \rightarrow 0$ to confirm you recover the analytic trajectory from before.
+
+    \item Now that you trust your code, do experiments to identify optimal values for $t_{jp}$ and $\theta$. Make sure you have a text box labeled "Optimization approach" which clearly articulates how you achieved your optimal value, provides the optimal values as well as the corresponding x coordinate when $y=0$, and a single code block which will reproduce this result. \textbf{The highest scoring value in the class will receive an extra point on your final grade!}
+    
+    \item Did you remember to acknowledge your collaborators?
+    
+    \item Submit your work as both an ipynb and pdf to Canvas.
+\end{enumerate}
+
+\noindent \textbf{Note:} If you use an off-the-shelf integrator like \textbf{odeint}from SciPy you will face issues. You are welcome to attempt this, but please be careful to note that many libraries assume the RHS is continuous, and will break if you attempt to apply the discontinuous RHS coming from the jetpack problem. Make sure to confirm using either test cases or other techniques that any libraries you use produce a valid prediction, or you will not receive credit.
+
+\end{document}
