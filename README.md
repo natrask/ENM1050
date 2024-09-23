@@ -83,7 +83,7 @@ The course does not assume any prior programming experience but will make use of
 - Teaching Assistants: Michelle Lin <mylin@seas.upenn.edu>, Alfredo Vazquez <valfredo@seas.upenn.edu>
   - TA Office hours:
     PICS conference room 517
-    Option 1: Wed 12-130
+    Option 1: Wed 330-430
     Option 2: Fri 11-1
 - *Reminder:* All correspondence should be through the ed forum. Emails are provided here for special circumstances (e.g. you can't access the OH building) and will otherwise be ignored.
 
