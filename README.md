@@ -29,7 +29,7 @@ Introduction to scientific computation.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/06_numpy.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/06_numpy.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture07.ipynb)
 - 25-Sept. Coding tutorial: Implementing a differential equation solver using encapsulation and unit tests
-  - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture08.ipynb)
+  - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture08.ipynb), [jupyter notebook with completed tutorial](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture08.ipynb)
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
