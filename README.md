@@ -25,9 +25,11 @@ Introduction to scientific computation.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/05_nonlinearsolves.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/05_nonlinearsolves.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture06.ipynb)
   - [Survey](https://forms.gle/bqEKw3N2pT8LctJ1A)
-- 23-Sept. Intro to functions, nonlinear solvers, first look at SciPy
+- 23-Sept. Intro to functions, nonlinear solvers, first look at NumPy
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/06_numpy.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/06_numpy.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture07.ipynb)
+- 25-Sept. Coding tutorial: Implementing a differential equation solver using encapsulation and unit tests
+  - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture08.ipynb)
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
