@@ -30,6 +30,11 @@ Introduction to scientific computation.
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture07.ipynb)
 - 25-Sept. Coding tutorial: Implementing a differential equation solver using encapsulation and unit tests
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture08.ipynb), [jupyter notebook with completed tutorial](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture08_completed.ipynb)
+- 30-Sept. Classes and linear systems
+  - *Please note:* HW3 has been pushed forward, and is now due 10/1 by 11:59 pm.
+  - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/07_slides.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/07_slides.pdf))
+  - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture09.ipynb)
+  - Survey: [here](https://forms.gle/sTAK8McszZ3jtAJC9)
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
