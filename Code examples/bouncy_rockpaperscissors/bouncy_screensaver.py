@@ -51,9 +51,33 @@ class AnimationApp:
         self.animate()
 
     def animate(self):
+        
+        #loop over every pair of images and check for collision
+        for image1 in self.bouncy_list:
+            for image2 in self.bouncy_list:
+                if image1 != image2 and self.is_collision(image1, image2):
+                    image1.dx = -image1.dx
+                    image1.dy = -image1.dy
+                    image2.dx = -image2.dx
+                    image2.dy = -image2.dy
+        
+        
+        #push images forward
         for image in self.bouncy_list:
             image.move()
         self.root.after(20, self.animate)
+    
+    def is_collision(self, img1, img2):
+        # check whether two images overlap
+        pos1 = img1.get_position()
+        pos2 = img2.get_position()
+        size1 = img1.get_size()
+        size2 = img2.get_size()
+
+        return not (pos1[0] + size1[0] < pos2[0] or
+                    pos1[0] > pos2[0] + size2[0] or
+                    pos1[1] + size1[1] < pos2[1] or
+                    pos1[1] > pos2[1] + size2[1])
 
 if __name__ == "__main__":
     root = tk.Tk()
