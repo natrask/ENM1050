@@ -35,6 +35,10 @@ Introduction to scientific computation.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/07_classes.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/07_classes.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture09.ipynb)
   - Survey: [here](https://forms.gle/sTAK8McszZ3jtAJC9)
+- 2-Oct. AI, graphics, and VSCode
+  - *Please note:* HW3 has been pushed forward, and is now due 10/1 by 11:59 pm.
+  - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics.pdf))
+  - Todo: Everyone needs to get VSCode up and running, see todays slides
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
