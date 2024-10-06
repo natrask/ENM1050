@@ -49,7 +49,7 @@ class BouncyImage:
 class AnimationApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Animation Example")
+        self.root.title("Rock paper scissors")
         
         self.canvas = tk.Canvas(root, width=800, height=400, bg="white")
         self.canvas.pack()
@@ -88,12 +88,9 @@ class AnimationApp:
                     overlapx = pos1[0] + size1[0] >= pos2[0] and pos1[0] <= pos2[0] + size2[0]
                     overlapy = pos1[1] + size1[1] >= pos2[1] and pos1[1] <= pos2[1] + size2[1]
 
-                    # # if overlap in both directions we have a collision, flip the velocities
+                    # if overlap is detected, do something
                     # if overlapx and overlapy:
-                    #         image1.dx = -image1.dx
-                    #         image2.dx = -image2.dx
-                    #         image1.dy = -image1.dy
-                    #         image2.dy = -image2.dy
+                    #    #do something
 
         # calculate forces on all images
         # first zero out all forces
