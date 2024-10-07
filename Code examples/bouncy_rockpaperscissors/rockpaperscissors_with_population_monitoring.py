@@ -15,9 +15,9 @@ class BouncyImage:
         # set up canvas and images
         self.canvas = canvas
 
-        self.rockImage = tk.PhotoImage(file='rock.png').subsample(4,4)  
-        self.paperImage = tk.PhotoImage(file='paper.png').subsample(4,4)
-        self.scissorsImage = tk.PhotoImage(file='scissors.png').subsample(4,4)
+        self.rockImage = tk.PhotoImage(file='rock.png').subsample(3,3)  
+        self.paperImage = tk.PhotoImage(file='paper.png').subsample(3,3)
+        self.scissorsImage = tk.PhotoImage(file='scissors.png').subsample(3,3)
 
         # Uncomment these to get different pictures
         # self.rockImage = tk.PhotoImage(file='rock2.png').subsample(12,12)  
@@ -103,11 +103,11 @@ class AnimationApp:
         self.root = root
         self.root.title("Rock paper scissors")
         
-        self.canvas = tk.Canvas(root, width=800, height=400, bg="white")
+        self.canvas = tk.Canvas(root, width=800, height=800, bg="white")
         self.canvas.pack()
         
         #timestep for simulation
-        self.dt = 0.02
+        self.dt = 0.1
         self.time = 0.0
         self.Nsteps = 0
 
@@ -115,10 +115,11 @@ class AnimationApp:
         canvaswidth = self.canvas.winfo_reqwidth()
         canvasheight = self.canvas.winfo_reqheight()
         self.bouncy_list = []
-        self.Nbouncies = 20 # be careful not to jam too many images into the canvas
+        self.Nbouncies = 30 # be careful not to jam too many images into the canvas
         for i in range(self.Nbouncies):
-            xpos = int(i*(canvaswidth-50)/(self.Nbouncies-1))
-            ypos = random.randint(1,canvasheight-int(0.5*canvasheight))
+            # xpos = int(i*(canvaswidth-50)/(self.Nbouncies-1))
+            xpos = random.randint(1,canvaswidth-int(0.05*canvaswidth))
+            ypos = random.randint(1,canvasheight-int(0.05*canvasheight))
             # randomly choose between rock, paper, and scissors
             choice = random.randint(0,2)
             if choice == 0: #rock
@@ -134,7 +135,7 @@ class AnimationApp:
         self.pop_list.append(self.calculate_population())
 
         # render a matplotlib plot in the corner
-        self.plot_id = self.add_plot((0.7*canvaswidth), (0.45*canvasheight),self.pop_list)
+        self.plot_id = self.add_plot((0.75*canvaswidth), (0.75*canvasheight),self.pop_list)
 
         self.animate()
 
@@ -170,12 +171,13 @@ class AnimationApp:
         ax.legend(['rock', 'paper', 'scissors'])
 
         # Create a canvas for the Matplotlib figure
-        canvas = FigureCanvasTkAgg(fig, master=self.root)
+        canvas = FigureCanvasTkAgg(fig, master=self.canvas)
         canvas.draw()
 
         # Place the Matplotlib canvas on the Tkinter canvas
-        canvas.get_tk_widget().place(x=xc,y=yc)
- 
+        plot_widget = canvas.get_tk_widget()
+        plot_widget.place(x=xc,y=yc)
+        return plot_widget
 
     def animate(self):
         
@@ -202,23 +204,23 @@ class AnimationApp:
                             image1.hand_type = 'rock'
                             image2.hand_type = 'rock'
                         # if rock/paper, make them both paper
-                        if image1.hand_type == 'rock' and image2.hand_type == 'paper':
+                        elif image1.hand_type == 'rock' and image2.hand_type == 'paper':
                             image1.hand_type = 'paper'
                             image2.hand_type = 'paper'
                         # if scissors/paper, make them both scissors
-                        if image1.hand_type == 'scissors' and image1.hand_type == 'paper':
+                        elif image1.hand_type == 'scissors' and image1.hand_type == 'paper':
                             image1.hand_type = 'scissors'
                             image2.hand_type = 'scissors'
                         # if rock/scissors, make them both rock
-                        if image2.hand_type == 'rock' and image1.hand_type == 'scissors':
+                        elif image2.hand_type == 'rock' and image1.hand_type == 'scissors':
                             image1.hand_type = 'rock'
                             image2.hand_type = 'rock'
                         # if rock/paper, make them both paper
-                        if image2.hand_type == 'rock' and image1.hand_type == 'paper':
+                        elif image2.hand_type == 'rock' and image1.hand_type == 'paper':
                             image1.hand_type = 'paper'
                             image2.hand_type = 'paper'
                         # if scissors/paper, make them both scissors
-                        if image2.hand_type == 'scissors' and image1.hand_type == 'paper':
+                        elif image2.hand_type == 'scissors' and image1.hand_type == 'paper':
                             image1.hand_type = 'scissors'
                             image2.hand_type = 'scissors'
                     
@@ -227,9 +229,9 @@ class AnimationApp:
         # first zero out all forces
         for image in self.bouncy_list:
             image.zero_force()
-            # add a tiny bit of friction to slow down the images
-            image.fx = -0.1*image.dx
-            image.fy = -0.1*image.dy
+            # add friction to slow down the images
+            image.fx = -1.0*image.dx
+            image.fy = -1.0*image.dy
 
         # loop over every pair of images and accumulate the pairwise force
         for image1_ind in range(self.Nbouncies):
@@ -239,26 +241,26 @@ class AnimationApp:
                     image2 = self.bouncy_list[image2_ind]
                     
                     # figure out if interaction is predator, prey or neutral
-                    interact = 0 #default to neutral
+                    interact = -0.5 #light repulsions from neutral images
                     if image1.hand_type == 'rock' and image2.hand_type == 'scissors':
                         interact = 1 #rock beats scissors
                     if image1.hand_type == 'rock' and image2.hand_type == 'paper':
-                        interact = -1 #paper beats rock
+                        interact = -2 #paper beats rock
                     if image1.hand_type == 'scissors' and image2.hand_type == 'rock':
-                        interact = -1
+                        interact = -2
                     if image1.hand_type == 'scissors' and image2.hand_type == 'paper':
                         interact = 1
                     if image1.hand_type == 'paper' and image2.hand_type == 'rock':
                         interact = 1
                     if image1.hand_type == 'paper' and image2.hand_type == 'scissors':
-                        interact = -1
+                        interact = -2
 
                     #get position and sizes of images
                     pos1 = image1.get_position()
                     pos2 = image2.get_position()
                     relative_pos_magnitude = np.sqrt((pos1[0]-pos2[0])**2 + (pos1[1]-pos2[1])**2)
                     # calculate the force magnitude, incorporating whether to chase predators or not
-                    force = -30000.*interact/(relative_pos_magnitude**2 + 15**2) # add small number to avoid division by zero
+                    force = -60000.*interact/(relative_pos_magnitude**2 + 15**2) # add small number to avoid division by zero
                     # calculate the force direction
                     force_direction = np.array([pos1[0]-pos2[0], pos1[1]-pos2[1]])
                     force_direction = force_direction/(np.linalg.norm(force_direction)) # add small number to avoid division by zero
@@ -273,15 +275,16 @@ class AnimationApp:
 
         #delete plot and redraw
         if self.Nsteps % 1000 == 0:
-            self.canvas.delete(self.plot_id)
-            self.plot_id = self.add_plot((0.7*self.canvas.winfo_reqwidth()), (0.45*self.canvas.winfo_reqheight()),self.pop_list)
+            # self.canvas.delete(self.plot_id)
+            self.plot_id.destroy()
+            self.plot_id = self.add_plot((0.75*self.canvas.winfo_reqwidth()), (0.75*self.canvas.winfo_reqheight()),self.pop_list)
 
         #push images forward
         for image in self.bouncy_list:
             self.time += self.dt
             self.Nsteps += 1
             image.move(self.dt)
-        self.root.after(10, self.animate)
+        self.root.after(5, self.animate)
 
 if __name__ == "__main__":
     # main function to open window and start executing the canvas animation loop
