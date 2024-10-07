@@ -42,7 +42,7 @@ Introduction to scientific computation.
 - 7-Oct. AI, graphics, and VSCode
   - *Please note:* There is a new HW to be completed a week from today, to confirm you have a working VSCode environment.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics_cont.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics_cont.pdf))
-  - In-class exercises: to be completed on your machine in vscode, guided by [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture11.ipynb) directions.
+  - In-class exercises: to be completed on your machine in vscode, guided by [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_11.ipynb) directions.
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
