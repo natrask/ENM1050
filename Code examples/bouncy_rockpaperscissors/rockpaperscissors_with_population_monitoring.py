@@ -5,6 +5,8 @@ import PIL
 import PIL.Image 
 import PIL.ImageTk 
 from PIL import Image
+from matplotlib.figure import Figure
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 class BouncyImage:
 
@@ -46,6 +48,7 @@ class BouncyImage:
         # Initialize the force to zero - this will be updated in the main loop
         self.fx = 0.0
         self.fy = 0.0
+
 
     def get_position(self):
         # Grab the current position from the canvas
@@ -105,13 +108,15 @@ class AnimationApp:
         
         #timestep for simulation
         self.dt = 0.02
+        self.time = 0.0
+        self.Nsteps = 0
 
         # Create a BouncyImage instance
+        canvaswidth = self.canvas.winfo_reqwidth()
+        canvasheight = self.canvas.winfo_reqheight()
         self.bouncy_list = []
         self.Nbouncies = 20 # be careful not to jam too many images into the canvas
         for i in range(self.Nbouncies):
-            canvaswidth = self.canvas.winfo_reqwidth()
-            canvasheight = self.canvas.winfo_reqheight()
             xpos = int(i*(canvaswidth-50)/(self.Nbouncies-1))
             ypos = random.randint(1,canvasheight-int(0.5*canvasheight))
             # randomly choose between rock, paper, and scissors
@@ -124,29 +129,53 @@ class AnimationApp:
                 self.bouncy_list.append(BouncyImage(xpos,ypos,self.canvas, 'scissors'))
             # self.bouncy_list.append(BouncyImage(xpos,ypos,self.canvas, "dvd.png"))    
 
-        import matplotlib.pyplot as plt
-        from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+        # store total population
+        self.pop_list = []
+        self.pop_list.append(self.calculate_population())
 
-        # Create a Matplotlib figure and axes
-        fig, ax = plt.subplots(figsize=(3, 3))  # Adjust figure size as needed
-        ax.plot([1, 2, 3, 4], [5, 6, 7, 8])  # Sample data
-        ax.set_xlabel("X-axis")
-        ax.set_ylabel("Y-axis")
-        ax.set_title("My Plot")
+        # render a matplotlib plot in the corner
+        self.plot_id = self.add_plot((0.7*canvaswidth), (0.45*canvasheight),self.pop_list)
 
-
-        # Embed the Matplotlib canvas in the Tkinter canvas
-        canvas_mpl = FigureCanvasTkAgg(fig, master=self.canvas)
-        canvas_mpl.draw()
-        canvas_mpl.get_tk_widget().pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
-
-        # Calculate the corner position for the Matplotlib canvas
-        x_offset = self.canvas.winfo_width() - canvas_mpl.get_tk_widget().winfo_width()
-        y_offset = self.canvas.winfo_height() - canvas_mpl.get_tk_widget().winfo_height()
-
-        # Place the Matplotlib canvas in the bottom right corner
-        self.canvas.create_window(x_offset, y_offset, anchor=tk.SE, window=canvas_mpl.get_tk_widget())
         self.animate()
+
+    def calculate_population(self):
+        # calculate the population of each type of image
+        rock_pop = 0
+        paper_pop = 0
+        scissors_pop = 0
+        for image in self.bouncy_list:
+            if image.hand_type == 'rock':
+                rock_pop += 1
+            if image.hand_type == 'paper':
+                paper_pop += 1
+            if image.hand_type == 'scissors':
+                scissors_pop += 1
+        total_pop = rock_pop + paper_pop + scissors_pop
+        return np.array([rock_pop, paper_pop, scissors_pop])/total_pop
+    
+    def add_plot(self,xc,yc,population_list):
+        # Create a Matplotlib figure
+        fig = Figure(figsize=(2, 2))
+        ax = fig.add_subplot(111)
+        t = np.arange(0, 3, .01)
+        # ax.plot(t, 2 * np.sin(2 * np.pi * t))
+        ax.plot(np.array(population_list).T[0,:], 'r')
+        ax.plot(np.array(population_list).T[1,:], 'g')
+        ax.plot(np.array(population_list).T[2,:], 'b')
+        ax.set_ylim([0,1])
+        # ax.set_xlim([0,len(population_list)])
+        ax.set_title('Population')
+        ax.set_xlabel('Time')
+        ax.set_ylabel('Population fraction')
+        ax.legend(['rock', 'paper', 'scissors'])
+
+        # Create a canvas for the Matplotlib figure
+        canvas = FigureCanvasTkAgg(fig, master=self.root)
+        canvas.draw()
+
+        # Place the Matplotlib canvas on the Tkinter canvas
+        canvas.get_tk_widget().place(x=xc,y=yc)
+ 
 
     def animate(self):
         
@@ -238,8 +267,19 @@ class AnimationApp:
                     image1.fy += force*force_direction[1]
 
 
+        #collect data
+        if self.Nsteps % 10 == 0:
+            self.pop_list.append(self.calculate_population())
+
+        #delete plot and redraw
+        if self.Nsteps % 1000 == 0:
+            self.canvas.delete(self.plot_id)
+            self.plot_id = self.add_plot((0.7*self.canvas.winfo_reqwidth()), (0.45*self.canvas.winfo_reqheight()),self.pop_list)
+
         #push images forward
         for image in self.bouncy_list:
+            self.time += self.dt
+            self.Nsteps += 1
             image.move(self.dt)
         self.root.after(10, self.animate)
 
