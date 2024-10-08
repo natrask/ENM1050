@@ -39,6 +39,10 @@ Introduction to scientific computation.
   - *Please note:* HW3 has been pushed forward, and is now due 10/1 by 11:59 pm.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics.pdf))
   - Todo: Everyone needs to get VSCode up and running, see todays slides
+- 7-Oct. AI, graphics, and VSCode
+  - *Please note:* There is a new HW to be completed a week from today, to confirm you have a working VSCode environment.
+  - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics_cont.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics_cont.pdf))
+  - In-class exercises: to be completed on your machine in vscode, guided by [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_11.ipynb) directions.
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
@@ -128,7 +132,7 @@ following areas:
 - 15% In-Class Assignments
   Each class will include a number of in-class exercises, to be completed in pairs and turned in on Canvas the following Tuesday. These assignments will be graded on a combination of completion and correctness.
 - 15% In-Class Quiz
-  There will be one in-class quiz on Wednesday, October 25. No external resources – e.g. notes, slides, or computer – are allowed during the in-class quizzes.
+  There will be one in-class quiz on Monday, October 14. No external resources – e.g. notes, slides, or computer – are allowed during the in-class quizzes.
 - 25% Final Project
   You will propose and complete a final project that showcases your understanding of python and scientific computing. Many final projects require independent investigation of programming techniques unique to the project effort and not directly treated in the course text of lectures.
 
