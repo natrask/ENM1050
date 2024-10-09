@@ -286,6 +286,7 @@ class AnimationApp:
             image.move(self.dt)
         self.root.after(5, self.animate)
 
+# The main loop that is executed to start the code.
 if __name__ == "__main__":
     # main function to open window and start executing the canvas animation loop
     root = tk.Tk()
