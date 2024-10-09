@@ -2,47 +2,51 @@
 Introduction to scientific computation.
 
 # Current Schedule
-- 28-Aug. Course intro, introduction to Google Colab
+- **28-Aug. Course intro, introduction to Google Colab**
   - Ref material: Slides ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/01_intro.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/01_intro.pdf)), [Code](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture01.ipynb).
-- 4-Sept. Colab warm-up and canvas group exercise. Dr. Trask on travel, OH begin next week, virtual zoom OH available this week by private message request on Ed.
+- **4-Sept. Colab warm-up and canvas group exercise. Dr. Trask on travel, OH begin next week, virtual zoom OH available this week by private message request on Ed.**
   - [HW0 posted](https://canvas.upenn.edu/courses/1814741/assignments/12789641), due midnight 9/9.
   - Ref material: [Code](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture02.ipynb).
   - Refer back to slides from 28-Aug
-- 9-Sept. Intro to our first simulator, lists, reading data and plots.
+- **9-Sept. Intro to our first simulator, lists, reading data and plots.**
   - [HW1 posted](https://github.com/natrask/ENM1050/blob/main/Assignments/ENM1050__Homework_1.pdf), due midnight 9/16. Submit through [canvas](https://canvas.upenn.edu/courses/1814741/assignments/12802490).
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/02_listsplots.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/02_listsplots.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture03.ipynb), [Example parsing from google form](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture03_datafromgoogleform.ipynb), [Challenge example](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture03_challenge_ex.ipynb)
   - [Course feedback](https://docs.google.com/forms/d/e/1FAIpQLSccDQMUzd1K-nB4PPDfFayBnAC_nBycYk7d4MnfSrW8F8k9-g/viewform?embedded=true)
-- 11-Sept. A widget for data collection, conditionals, writing clean code.
+- **11-Sept. A widget for data collection, conditionals, writing clean code.**
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/03_conditionals.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/03_conditionals.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture04.ipynb), [Data widget](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture04_datawidget.ipynb)
   - [Survey](https://forms.gle/vyezcj7ArEYifkU8A)
-- 16-Sept. For loops, while loops, and list comprehension.
+- **16-Sept. For loops, while loops, and list comprehension.**
   - [HW2 posted](https://github.com/natrask/ENM1050/blob/main/Assignments/ENM1050__Homework_2.pdf), due midnight 9/23. Submit through [canvas](https://canvas.upenn.edu/courses/1814741/assignments/12817409)).
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/04_loops.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/04_loops.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture05.ipynb)
-- 16-Sept. Intro to functions, nonlinear solvers, first look at SciPy
+- **16-Sept. Intro to functions, nonlinear solvers, first look at SciPy**
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/05_nonlinearsolves.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/05_nonlinearsolves.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture06.ipynb)
   - [Survey](https://forms.gle/bqEKw3N2pT8LctJ1A)
-- 23-Sept. Intro to functions, nonlinear solvers, first look at NumPy
+- **23-Sept. Intro to functions, nonlinear solvers, first look at NumPy**
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/06_numpy.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/06_numpy.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture07.ipynb)
-- 25-Sept. Coding tutorial: Implementing a differential equation solver using encapsulation and unit tests
+- **25-Sept. Coding tutorial: Implementing a differential equation solver using encapsulation and unit tests**
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture08.ipynb), [jupyter notebook with completed tutorial](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture08_completed.ipynb)
-- 30-Sept. Classes and linear systems
+- **30-Sept. Classes and linear systems**
   - *Please note:* HW3 has been pushed forward, and is now due 10/1 by 11:59 pm.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/07_classes.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/07_classes.pdf))
   - In-class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture09.ipynb)
   - Survey: [here](https://forms.gle/sTAK8McszZ3jtAJC9)
-- 2-Oct. AI, graphics, and VSCode
+- **2-Oct. AI, graphics, and VSCode**
   - *Please note:* HW3 has been pushed forward, and is now due 10/1 by 11:59 pm.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics.pdf))
   - Todo: Everyone needs to get VSCode up and running, see todays slides
-- 7-Oct. AI, graphics, and VSCode
+- **7-Oct. AI, graphics, and VSCode**
   - *Please note:* There is a new HW to be completed a week from today, to confirm you have a working VSCode environment.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics_cont.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics_cont.pdf))
   - In-class exercises: to be completed on your machine in vscode, guided by [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_11.ipynb) directions.
+ - **9-Oct. AI, graphics, and VSCode**
+  - *Please note:* Do not forget to get your environment set up. Dr. Trask will be back from travel Friday - if you haven't been able to get an environment working arrange 1-1 OH by email.
+  - Directions: Class will be covered by Dr. Hernandez. Complete Monday's exercise, and then move on to today's in class exercise.
+  - In-class exercises: to be completed on your machine in vscode, guided by [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_13.ipynb) directions.
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
