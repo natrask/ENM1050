@@ -47,6 +47,11 @@ Introduction to scientific computation.
   - *Please note:* Do not forget to get your environment set up. Dr. Trask will be back from travel Friday - if you haven't been able to get an environment working arrange 1-1 OH by email.
   - Directions: Class will be covered by Dr. Hernandez. Complete Monday's exercise, and then move on to today's in class exercise.
   - In-class exercises: to be completed on your machine in vscode, guided by [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_13.ipynb) directions.
+- **14-Oct. Midterm exam**
+- **16-Oct. Supervised learning - linear algebra and PyTorch**
+  - *Please note:* If you'd like to discuss your exam or progress you've made thus far, please reach out to Prof. Trask
+  - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/09_machinelearning.pptx)
+  - In-class exercises:  [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_13.ipynb) directions.
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
