@@ -51,7 +51,7 @@ Introduction to scientific computation.
 - **16-Oct. Supervised learning - linear algebra and PyTorch**
   - *Please note:* If you'd like to discuss your exam or progress you've made thus far, please reach out to Prof. Trask
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/09_machinelearning.pptx)
-  - In-class exercises:  [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_13.ipynb) directions.
+  - In-class exercises:  [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_14.ipynb) directions.
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
