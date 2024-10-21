@@ -52,6 +52,10 @@ Introduction to scientific computation.
   - *Please note:* If you'd like to discuss your exam or progress you've made thus far, please reach out to Prof. Trask
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/09_machinelearning.pptx)
   - In-class exercises:  [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_14.ipynb) directions.
+- **21-Oct. Pickle, Automatic differentiation, and gradient descent**
+  - Slides: no slides today. Guided overview of bouncy rock paper scissors to collect data.
+  - HW4 is [out](https://github.com/natrask/ENM1050/blob/main/Assignments/ENM1050__Homework_4.pdf) and due a week from Wednesday. **Get help from OH early!**
+  - In-class exercises:  [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_15.ipynb) directions.
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
