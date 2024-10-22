@@ -56,6 +56,9 @@ Introduction to scientific computation.
   - Slides: no slides today. Guided overview of bouncy rock paper scissors to collect data.
   - HW4 is [out](https://github.com/natrask/ENM1050/blob/main/Assignments/ENM1050__Homework_4.pdf) and due a week from Wednesday. **Get help from OH early!**
   - In-class exercises:  [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_15.ipynb) directions.
+ - **23-Oct. More PyTorch and a guided tutorial to fitting models.**
+  - Note: For HW4, we've curated a dataset for you that you can check out [here](https://drive.google.com/drive/folders/1gLfF-xZqGY2MyGi53MkIpMF9O7Jary6C?usp=drive_link). The [loadexperiments.py file](https://drive.google.com/file/d/1Bd8Rn1BbGi531zeiQD6GtQO5rQ0l9LP3/view?usp=drive_link) gives an example. 
+  - In class we will step through a [tutorial] for how to build and train PyTorch models. You'll be able to tweak this to complete HW4.
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
