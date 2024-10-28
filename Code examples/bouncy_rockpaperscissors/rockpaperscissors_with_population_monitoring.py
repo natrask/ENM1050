@@ -10,7 +10,6 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 class BouncyImage:
 
-
     def __init__(self, initx, inity, canvas, hand_type):
         # set up canvas and images
         self.canvas = canvas
@@ -272,6 +271,12 @@ class AnimationApp:
         #collect data
         if self.Nsteps % 10 == 0:
             self.pop_list.append(self.calculate_population())
+
+        # if we're over a critical number of steps, dump to a pickle file
+        if self.Nsteps > 5000:
+            import pickle
+            with open('populations_experiment-10.pkl', 'wb') as f:
+                pickle.dump(self.pop_list, f)
 
         #delete plot and redraw
         if self.Nsteps % 1000 == 0:
