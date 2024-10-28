@@ -43,7 +43,7 @@ Introduction to scientific computation.
   - *Please note:* There is a new HW to be completed a week from today, to confirm you have a working VSCode environment.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics_cont.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/08_graphics_cont.pdf))
   - In-class exercises: to be completed on your machine in vscode, guided by [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_11.ipynb) directions.
- - **9-Oct. AI, graphics, and VSCode**
+- **9-Oct. AI, graphics, and VSCode**
   - *Please note:* Do not forget to get your environment set up. Dr. Trask will be back from travel Friday - if you haven't been able to get an environment working arrange 1-1 OH by email.
   - Directions: Class will be covered by Dr. Hernandez. Complete Monday's exercise, and then move on to today's in class exercise.
   - In-class exercises: to be completed on your machine in vscode, guided by [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_13.ipynb) directions.
