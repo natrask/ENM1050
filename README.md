@@ -59,6 +59,9 @@ Introduction to scientific computation.
 - **23-Oct. More PyTorch and a guided tutorial to fitting models.**
   - Note: For HW4, we've curated a dataset for you that you can check out [here](https://drive.google.com/drive/folders/1gLfF-xZqGY2MyGi53MkIpMF9O7Jary6C?usp=drive_link). The [loadexperiments.py file](https://drive.google.com/file/d/1Bd8Rn1BbGi531zeiQD6GtQO5rQ0l9LP3/view?usp=drive_link) gives an example. 
   - In class we will step through a [tutorial](https://github.com/natrask/ENM1050/blob/main/Pytorch_Model_Fitting_Tutorial.ipynb) for how to build and train PyTorch models. You'll be able to tweak this to complete HW4.
+- **28-Oct. Continuing pytorch tutorial, and Neural Networks.**
+  - In class we will step through a [tutorial](https://github.com/natrask/ENM1050/blob/main/Pytorch_Model_Fitting_Tutorial.ipynb). This is very close to what you'll need to complete the HW.
+  - In class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_16.ipynb)
  
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
