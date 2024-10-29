@@ -62,7 +62,9 @@ Introduction to scientific computation.
 - **28-Oct. Continuing pytorch tutorial, and Neural Networks.**
   - In class we will step through a [tutorial](https://github.com/natrask/ENM1050/blob/main/Pytorch_Model_Fitting_Tutorial.ipynb). This is very close to what you'll need to complete the HW.
   - In class exercises: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_16.ipynb)
- 
+- **30-Oct. Guest lecture - computer vision.**
+  - In class material : [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/GuestLecture_ComputerVision.ipynb)
+  - Note: Homework has been pushed back. Please see ed for announcement and some hints.
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
 
