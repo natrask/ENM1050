@@ -65,6 +65,10 @@ Introduction to scientific computation.
 - **30-Oct. Guest lecture - computer vision.**
   - In class material : [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/GuestLecture_ComputerVision.ipynb)
   - Note: Homework has been pushed back. Please see ed for announcement and some hints.
+- **4-Nov. Multilayer perceptrons and some extra HW guidance.**
+  - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/11_mlps.pptx) ,[pdf](https://github.com/natrask/ENM1050/blob/main/Slides/11_mlps.pdf))
+  - In class material : [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_16.ipynb)
+  - Note: We will spend latter half of class today stepping through HW4. Come to OH if you need help!
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
 
