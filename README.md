@@ -72,7 +72,7 @@ Introduction to scientific computation.
 - **6-Nov. Classification with MLPs.**
   - In class material : [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_17.ipynb)
   - [Zoom link](https://upenn.zoom.us/j/95559113783?pwd=mOsYE5wuq8q567wJnLUmKuqDFBW1Nj.1)
-  - Recording of class will uploaded to github for those unable to attend.
+  - Recording of lecture is available [here](https://github.com/natrask/ENM1050/blob/main/Lectures/Nov_6_zoomLecture.mp4)
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
 
