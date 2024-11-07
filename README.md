@@ -73,7 +73,8 @@ The course does not assume any prior programming experience but will make use of
 # Teaching Staff
 - Instructor: Dr. Nat Trask <ntrask@seas.upenn.edu>
   - Associate Professor, MEAM
-    Office hours: T 11:00am-12:00pm, R 11:00am-12:00pm
+  - PICS room 532
+  - Office hours: T 11:00am-12:00pm, R 11:00am-12:00pm
 - Graduate teaching assistant: Muhammad Abdullah <muhabd@seas.upenn.edu>
 - Teaching Assistants: Michelle Lin <mylin@seas.upenn.edu>, Alfredo Vazquez <valfredo@seas.upenn.edu>
   - TA Office hours:
