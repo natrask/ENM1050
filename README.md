@@ -50,7 +50,7 @@ Introduction to scientific computation.
 - **14-Oct. Midterm exam**
 - **16-Oct. Supervised learning - linear algebra and PyTorch**
   - *Please note:* If you'd like to discuss your exam or progress you've made thus far, please reach out to Prof. Trask
-  - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/09_machinelearning.pptx)
+  - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/09_machinelearning.pptx))
   - In-class exercises:  [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_14.ipynb) directions.
 - **21-Oct. Pickle, Automatic differentiation, and gradient descent**
   - Slides: no slides today. Guided overview of bouncy rock paper scissors to collect data.
