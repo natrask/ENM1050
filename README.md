@@ -74,9 +74,12 @@ Introduction to scientific computation.
   - [Zoom link](https://upenn.zoom.us/j/95559113783?pwd=mOsYE5wuq8q567wJnLUmKuqDFBW1Nj.1)
   - Recording of lecture is available [here](https://github.com/natrask/ENM1050/blob/main/Lectures/Nov_6_zoomLecture.mp4)
 - **11-Nov. Crowdsourcing data.**
-  - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/112_classifierBoundaries.pptx))
+  - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/12_classifierBoundaries.pptx))
   - In class material : [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_18.ipynb) 
   - Link to survey [for crowdsourcing](https://docs.google.com/forms/d/e/1FAIpQLSd0fYiQf1vTRBVXFvaF4A87QFKDwYZhNT6YAfhdaiF1w08Tlg/viewform)
+-  **13-Nov. Last AI lesson: NeuralODEs.**
+  - Slides ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/13_nodes.pptx))
+  - In class material : [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_19.ipynb) 
 
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
