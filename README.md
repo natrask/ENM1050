@@ -79,7 +79,15 @@ Introduction to scientific computation.
   - Link to survey [for crowdsourcing](https://docs.google.com/forms/d/e/1FAIpQLSd0fYiQf1vTRBVXFvaF4A87QFKDwYZhNT6YAfhdaiF1w08Tlg/viewform)
 -  **13-Nov. Last AI lesson: NeuralODEs.**
   - Slides ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/13_nodes.pptx))
-  - In class material : [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_19.ipynb) 
+  - In class material : [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_19.ipynb)
+-  **18-Nov. Homework workshop day.**
+  - List of group surveys:
+    - [Pajama survey](https://docs.google.com/forms/d/1gO0QypvwTJRfRZHv9dqrqsJH5S3d49Q5oggT7Nve_p4/edit#question=1901849135&field=617013209)
+    - [Dining hall survey](https://docs.google.com/forms/d/e/1FAIpQLSedj3pVxx7OMqy-7MiMzIKX2B87gCQiH9CtaHhs5zIjjZF7zg/viewform)
+    - [How cold is cold](https://docs.google.com/forms/d/e/1FAIpQLSe0Zt-SCqqjrHmppZ_jAKWGyG4Sx3dm2M8iMCNH2rHbLk8vnw/viewform)
+    - [Sandwiches](https://docs.google.com/forms/d/e/1FAIpQLSc4_wqA1vSS7wiuEY0TFMf0vsEgi4F1nFSX3e7fM42zeOHkxg/viewform)
+    - [Vacation plans](https://docs.google.com/forms/d/e/1FAIpQLSduiNk5_AlNJp6I27OuuFt-QFKKQMUX0SbAfZJ6Za_gN7BufA/viewform)
+    
 
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
