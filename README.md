@@ -84,7 +84,6 @@ Introduction to scientific computation.
   - List of group surveys:
     - [Pajama survey](https://docs.google.com/forms/d/1gO0QypvwTJRfRZHv9dqrqsJH5S3d49Q5oggT7Nve_p4/edit#question=1901849135&field=617013209)
     - [Dining hall survey](https://docs.google.com/forms/d/e/1FAIpQLSedj3pVxx7OMqy-7MiMzIKX2B87gCQiH9CtaHhs5zIjjZF7zg/viewform)
-    - [How cold is cold](https://docs.google.com/forms/d/e/1FAIpQLSe0Zt-SCqqjrHmppZ_jAKWGyG4Sx3dm2M8iMCNH2rHbLk8vnw/viewform)
     - [Sandwiches](https://docs.google.com/forms/d/e/1FAIpQLSc4_wqA1vSS7wiuEY0TFMf0vsEgi4F1nFSX3e7fM42zeOHkxg/viewform)
     - [Vacation plans](https://docs.google.com/forms/d/e/1FAIpQLSduiNk5_AlNJp6I27OuuFt-QFKKQMUX0SbAfZJ6Za_gN7BufA/viewform)
     
