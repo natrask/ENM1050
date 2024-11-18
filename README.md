@@ -87,6 +87,8 @@ Introduction to scientific computation.
     - [Sandwiches](https://docs.google.com/forms/d/e/1FAIpQLSc4_wqA1vSS7wiuEY0TFMf0vsEgi4F1nFSX3e7fM42zeOHkxg/viewform)
     - [Vacation plans](https://docs.google.com/forms/d/e/1FAIpQLSduiNk5_AlNJp6I27OuuFt-QFKKQMUX0SbAfZJ6Za_gN7BufA/viewform)
     - [Sleep survey](https://docs.google.com/forms/d/e/1FAIpQLScWi9Rcrc6Ivw3xSecmexG_-Rojcp1AKvA3mf3kdRrVFWsogw/viewform)
+    - [Where to study](https://docs.google.com/forms/d/e/1FAIpQLSectaSYKX6o7SGrCA4eNDEc6P4fEV8ZHuzzUuHVOnbvDgy-HA/viewform)
+    - [Dining hall #2](https://docs.google.com/forms/d/e/1FAIpQLScDKKHRHc57gsseo_1e22MS9snMUDhugYO9yCkerZDZzekMyA/viewform)
     
 
 # Tentative Schedule
