@@ -89,7 +89,7 @@ Introduction to scientific computation.
     - [Sleep survey](https://docs.google.com/forms/d/e/1FAIpQLScWi9Rcrc6Ivw3xSecmexG_-Rojcp1AKvA3mf3kdRrVFWsogw/viewform)
     - [Where to study](https://docs.google.com/forms/d/e/1FAIpQLSectaSYKX6o7SGrCA4eNDEc6P4fEV8ZHuzzUuHVOnbvDgy-HA/viewform)
     - [Dining hall #2](https://docs.google.com/forms/d/e/1FAIpQLScDKKHRHc57gsseo_1e22MS9snMUDhugYO9yCkerZDZzekMyA/viewform)
--  **20-Nov. Microcontrollers.**
+- **20-Nov. Microcontrollers.**
   - Slides ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/14_microcontrollers.pptx))
   - **Note: Future lectures will be held in the circuit lab in the basement of Towne, next to the cafe.**
 
