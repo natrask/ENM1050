@@ -77,7 +77,7 @@ Introduction to scientific computation.
   - Slides: ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/12_classifierBoundaries.pptx))
   - In class material : [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_18.ipynb) 
   - Link to survey [for crowdsourcing](https://docs.google.com/forms/d/e/1FAIpQLSd0fYiQf1vTRBVXFvaF4A87QFKDwYZhNT6YAfhdaiF1w08Tlg/viewform)
--  **13-Nov. Last AI lesson: NeuralODEs.**
+- **13-Nov. Last AI lesson: NeuralODEs.**
   - Slides ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/13_nodes.pptx))
   - In class material : [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20examples/Lecture_19.ipynb)
 -  **18-Nov. Homework workshop day.**
