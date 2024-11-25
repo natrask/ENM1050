@@ -92,6 +92,10 @@ Introduction to scientific computation.
 - **20-Nov. Microcontrollers.**
   - Slides ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/14_microcontrollers.pptx))
   - **Note: Future lectures will be held in the circuit lab in the basement of Towne, next to the cafe.**
+- **25-Nov. Lab session introducing picos.**
+  - **Note: This and all future lectures will be in the GM lab in the basement of Towne, next to the cafe and AddLab.**
+  - Assignment: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20Examples/Pico_Introduction.ipynb)
+  - Follow slides from last lecture for circuit wiring diagrams.  ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/14_microcontrollers.pptx))
 
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
