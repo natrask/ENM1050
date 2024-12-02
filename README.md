@@ -96,6 +96,9 @@ Introduction to scientific computation.
   - **Note: This and all future lectures will be in the GM lab in the basement of Towne, next to the cafe and AddLab.**
   - Assignment: [jupyter notebook](https://github.com/natrask/ENM1050/blob/main/Code%20Examples/Pico_Introduction.ipynb)
   - Follow slides from last lecture for circuit wiring diagrams.  ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/14_microcontrollers.pptx))
+- **2-Dec. Virtual lecture. Potentiometers, relays, and final projects.**
+  - [Slides with embedded video of me explaining](https://github.com/natrask/ENM1050/blob/main/Slides/15_relays.pptx)
+  - [Video](https://github.com/natrask/ENM1050/blob/main/Lecture_video/Dec_2_sicklecture.mp4) for those having trouple with pptx   
 
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
