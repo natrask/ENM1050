@@ -1,12 +1,11 @@
-from machine import Pin, ADC  # Import ADC module
+from machine import ADC, Pin
 import time
 
-gp0 = ADC(0)  # Set gp0 to ADC input
-
-print('Reading a potentiometer demo.')
+# Initialize ADC on pin 26 (for Raspberry Pi Pico)
+potentiometer = ADC(Pin(26))
 
 while True:
-    led.value(not led.value())
-    gp0_value = gp0.read_u16()  # Read potentiometer value from gp0 pin
-    print(f'gp0 value: {gp0_value}')
-    time.sleep(0.05)
+    pot_value = potentiometer.read_u16()  # Read the ADC value (0-65535)
+    print("Potentiometer value:", pot_value)
+    time.sleep(0.1)
+    
