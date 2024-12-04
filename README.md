@@ -98,7 +98,10 @@ Introduction to scientific computation.
   - Follow slides from last lecture for circuit wiring diagrams.  ([pptx](https://github.com/natrask/ENM1050/blob/main/Slides/14_microcontrollers.pptx))
 - **2-Dec. Virtual lecture. Potentiometers, relays, and final projects.**
   - [Slides with embedded video of me explaining](https://github.com/natrask/ENM1050/blob/main/Slides/15_relays.pptx)
-  - [Video](https://github.com/natrask/ENM1050/blob/main/Lecture_video/Dec_2_sicklecture.mp4) for those having trouple with pptx   
+  - [Video](https://github.com/natrask/ENM1050/blob/main/Lecture_video/Dec_2_sicklecture.mp4) for those having trouple with pptx
+- **4-Dec. Lab session working with potentiometers, relays, and spinning the helicopter.**
+  - [Slides](https://github.com/natrask/ENM1050/blob/main/Slides/16_helicopter.pptx)
+  - Instructions are at the end of the slides, submit pictures corresponding to the 4 exercises to [canvas](https://canvas.upenn.edu/courses/1814741/assignments/12983443). 
 
 # Tentative Schedule
 The following schedule is from previous years. We will cover similar material, but the pacing and specific coverage is subject to change. Actual coverage and links to material will be provided above
